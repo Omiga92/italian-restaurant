@@ -1,0 +1,40 @@
+/* Start Footer */
+footer {
+	h3 {
+		color: $backroundGray;
+		font-weight: 300;
+		margin-bottom: 20px;
+	}
+	p {
+		width: 60%;
+		color: $backroundGray;
+		margin-bottom: 30px;
+		@media (max-width: 767px) {
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+	.icons {
+		.icon {
+			margin-right: 10px;
+			background-color: $backroundGray;
+			color: #fff;
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 30px;
+		}
+	}
+	ul {
+		li {
+			margin-bottom: 8px;
+			a {
+				text-decoration: none;
+				color: $backroundGray;
+			}
+		}
+	}
+}
+/* End Footer */

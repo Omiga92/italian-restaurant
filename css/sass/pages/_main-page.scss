@@ -1,0 +1,246 @@
+/* Start Hero */
+header .hero {
+	h1 {
+		font: {
+			family: "Reey", sans-serif;
+			size: 4rem;
+		}
+	}
+	h2 {
+		font: {
+			style: italic;
+			size: 1.5rem;
+			weight: 700;
+		}
+		text-transform: uppercase;
+		margin-top: 5rem;
+		letter-spacing: 5px;
+	}
+	a {
+		font: {
+			weight: 800;
+			size: 20px;
+		}
+		width: 200px;
+		text-transform: uppercase;
+		color: $colorGray;
+	}
+	p {
+		font-size: 1.5rem;
+		font-style: italic;
+		line-height: 1.6;
+		padding: 5px;
+	}
+	@media (min-width: 992px) {
+		.hero-img {
+			position: relative;
+			img {
+				display: block;
+				position: absolute;
+				bottom: -15%;
+				left: 50%;
+				transform: translateX(-50%);
+				-webkit-transform: translateX(-50%);
+				-moz-transform: translateX(-50%);
+				-o-transform: translateX(-50%);
+				-ms-transform: translateX(-50%);
+			}
+		}
+	}
+}
+/* End Hero */
+
+/* Start Plates Style */
+
+.plates {
+	.paragraphe {
+		width: 50%;
+		margin: 4rem auto;
+		font-size: 1.5rem;
+		line-height: 1.3;
+		color: $backroundGray;
+	}
+	.plate {
+		h3,
+		p {
+			color: $backroundGray;
+		}
+	}
+}
+
+/* End Plates Style */
+
+/* Start About Us */
+.about {
+	background-color: #27292c;
+	.mainTitle,
+	p {
+		color: #fff;
+	}
+	a {
+		background-color: #e9e9e9;
+		color: #27292c;
+		font-weight: 700;
+		font-size: 1.2rem;
+		border-radius: 20px;
+		width: 230px;
+		letter-spacing: 0.5px;
+	}
+}
+/* End About Us */
+
+/* Start Offres */
+.offres {
+	.content {
+		h3 {
+			font-size: 3rem;
+			font-weight: 700;
+			color: #27292c;
+		}
+		p {
+			font-size: 20px;
+		}
+	}
+}
+/* End Offres */
+
+/* Start Pizza */
+.pizza {
+	@media (min-width: 992px) {
+		position: relative;
+		min-height: 880px;
+	}
+	background: {
+		image: url("../images/HeaderBackground.jpg");
+		size: cover;
+		position: center center;
+		repeat: no-repeat;
+	}
+	object-fit: cover;
+	.mainTitle {
+		font-size: 3rem;
+	}
+	p {
+		width: 60%;
+		margin: 10px auto;
+		font-size: 1.2rem;
+		font-weight: 400;
+		color: #f8f6f1;
+	}
+	span {
+		height: 6px;
+		width: 140px;
+		display: block;
+		background-color: #fff;
+		margin: 30px auto;
+	}
+	.image {
+		width: 80%;
+		margin: 20px auto 0;
+		@media (min-width: 992px) {
+			position: absolute;
+			width: 50%;
+			bottom: -12%;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		img {
+			transform: rotate(355deg);
+			-webkit-transform: rotate(355deg);
+			-moz-transform: rotate(355deg);
+			-o-transform: rotate(355deg);
+			-ms-transform: rotate(355deg);
+		}
+	}
+}
+/* End Pizza */
+
+/* Start discription */
+.discription {
+	.row {
+		h3 {
+			font-family: "Reey", sans-serif;
+			color: #393939;
+		}
+		p {
+			color: #333d42;
+		}
+	}
+	.paragraphe {
+		width: 70%;
+		margin: 7rem auto 2rem;
+		font-size: 20px;
+		font-weight: 600;
+		color: #3f3f3f;
+	}
+	.parag-name {
+		display: block;
+		font-weight: 700;
+		color: #3f3f3f;
+	}
+}
+/* End discription */
+
+/* Start Subscribe */
+.subscribe {
+	background-color: #27292c;
+	padding-inline: 20px;
+	h2 {
+		margin-top: 4rem;
+		font-size: 3.5rem;
+		font-weight: 600;
+		margin-bottom: 2rem;
+		@media (width < 768px) {
+			font-size: 2.5rem;
+		}
+	}
+	p {
+		width: 44%;
+		margin: 0 auto 3rem;
+		font-size: 1.2rem;
+		@media (width < 768px) {
+			font-size: 0.9rem;
+			width: 100%;
+		}
+	}
+	form {
+		position: relative;
+		width: 40%;
+		margin: 0 auto 3rem;
+		@media (width < 768px) {
+			width: 100%;
+		}
+		input {
+			height: 50px;
+		}
+		input[type="submit"] {
+			margin-left: 0;
+			border: none;
+			width: fit-content;
+			border-radius: 25px;
+			background-color: #54524f;
+			color: #fff;
+			text-transform: uppercase;
+			font-weight: 700;
+			font-size: 1.2rem;
+			padding: 10px 20px;
+			position: absolute;
+			right: 0;
+			@media (width < 768px) {
+				font-size: 0.8rem;
+			}
+		}
+		input[type="text"] {
+			width: 85%;
+			padding: 10px 20px;
+			border-radius: 25px 0 0 25px;
+			outline: none;
+			border: none;
+			margin-right: 0;
+			@media (width < 768px) {
+				font-size: 0.8rem;
+			}
+		}
+	}
+}
+/* End Subscribe */

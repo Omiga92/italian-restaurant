@@ -1,0 +1,50 @@
+/* Start Header */
+header {
+	min-height: 100vh;
+	background-image: url("../images/HeaderBackground.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: repeat;
+	padding-top: 150px;
+}
+
+.navbar .navbar-brand img {
+	width: 130px;
+}
+@media (max-width: 991px) {
+	.navbar-collapse {
+		background-color: #2d2e34 !important;
+		padding: 20px !important;
+		border-radius: 20px !important;
+	}
+}
+.navbar {
+	.nav-item {
+		margin-right: 15px;
+		a {
+			margin-left: 10px;
+			font-size: 20px;
+			color: #fff;
+			&:hover {
+				color: #859a20;
+			}
+		}
+	}
+	.navbar-toggler {
+		&:focus {
+			box-shadow: none;
+		}
+		.btn-toggle {
+			border: 2px solid #fff;
+			padding: 5px 8px;
+			border-radius: 5px;
+			svg {
+				color: #fff;
+			}
+		}
+	}
+	.btn-search {
+		width: 150px;
+	}
+}
+/* End Header */
